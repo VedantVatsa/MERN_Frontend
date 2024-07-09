@@ -28,7 +28,7 @@ function CreatePost() {
     const token = localStorage.getItem("token");
 
     axios
-      .post("http://localhost:5000/api/posts", formData, {
+      .post("https://mern-backend-s5b5.onrender.com/api/posts", formData, {
         headers: {
           Authorization: `Bearer ${token}`,
         },
