@@ -64,12 +64,12 @@ function CreatePost() {
         onChange={handleInputChange}
         className="input-field"
       ></textarea>
-      <input
+      {/*<input
         type="file"
         name="file"
         onChange={handleFileChange}
         className="file-input"
-      />
+      />*/}
       <button onClick={handlePostSubmit} className="submit-button">
         Post
       </button>
